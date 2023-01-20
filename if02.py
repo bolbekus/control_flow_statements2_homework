@@ -8,4 +8,13 @@ def main(a,b,c):
     Returns:
         int: return answer.
     """
-    return
+    minimum = a 
+    if minimum > b:
+        minimum = b
+
+    if minimum > c:
+        minimum = c
+
+    return minimum
+
+print(main(1,4,2))
